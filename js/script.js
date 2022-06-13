@@ -1,5 +1,6 @@
 const num = 113;
-console.log("шестнадцатеричный вид: " + num.toString(16) + "; двоичный вид: " + num.toString(2));
+console.log(`шестнадцатеричный вид: ${num.toString(16)}; двоичный вид: ${num.toString(2)}`);
+
 
 const data = +prompt('введите число');
 let x = 2;
