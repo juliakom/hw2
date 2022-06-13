@@ -8,7 +8,7 @@ let plus = data + x,
     minus = data - x,
     multiply = data * x,
     divide = data / x;
-console.log ("сумма:" + plus + "; разница: " + minus + "; умножение: " + multiply + "; деление: " + divide);
+console.log (`сумма: ${plus}; разница: ${minus}; умножение: ${multiply}; деление: ${divide}`);
 console.log(data.toString().length);
 console.log(+(0.51000002.toFixed(2)) + 2);
 
